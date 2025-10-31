@@ -1,38 +1,64 @@
-# Chef Amélie Dupont - Quiz App
+# Chef Amélie Dupont - Quiz Gourmand
 
-Uma aplicação interativa de quiz que identifica o perfil gastronômico do usuário e oferece a coleção de receitas da Chef Amélie Dupont.
+Plataforma interativa de quiz que revela o perfil gourmand dos usuários e apresenta a coleção exclusiva de 500 receitas da Chef Amélie Dupont.
 
-## Estrutura do Projeto
+## 🚀 Deploy para GitHub Pages
 
-O projeto está organizado da seguinte forma:
+Este projeto está configurado para deploy automático no GitHub Pages.
 
-- `/client`: Código-fonte do frontend React
-  - `/src`: Componentes, hooks e lógica da aplicação
-    - `/assets`: Imagens e recursos organizados por categoria
-    - `/components`: Componentes organizados por domínio (quiz, recipe, layout, etc.)
-    - `/data`: Dados estáticos usados na aplicação
-    - `/hooks`: Custom hooks React
-    - `/types`: Definições de tipos TypeScript
-- `/server`: Código-fonte do backend Express
-- `/shared`: Esquemas e tipos compartilhados entre frontend e backend
-- `/public`: Arquivos estáticos servidos diretamente
-- `/dist`: Build final para deploy (gerado pelos scripts de build)
+### Passos para Deploy:
 
-## Deploy
+1. **Commit e push para GitHub:**
+   ```bash
+   git add .
+   git commit -m "Deploy da plataforma Chef Amélie"
+   git push origin main
+   ```
 
-Para fazer o deploy da aplicação:
+2. **Configure GitHub Pages:**
+   - Acesse Settings > Pages no repositório GitHub
+   - Em "Source", selecione "GitHub Actions"
+   - O workflow executará automaticamente
 
-1. **Build**: Execute `npm run build` para criar os arquivos de build na pasta `/dist`
-2. **Execução**: Execute `npm run start` para iniciar o servidor de produção
+3. **Aplicação online:**
+   - Disponível em: `https://[usuario].github.io/[repositorio]/`
 
-O processo de build compila o frontend React com Vite e o backend com esbuild, unindo tudo na pasta `/dist`.
+## ✨ Características
 
-## Desenvolvimento
+- Quiz interativo com 6 etapas personalizadas
+- Player de áudio com reprodução automática na página /merci
+- Rastreamento UTM integrado com Utmify
+- Facebook Pixel configurado (ID: 644431871463181)
+- Links Hotmart para produtos e upsells
+- Design responsivo mobile-first
 
-Para executar o projeto em modo de desenvolvimento:
+## 🛠️ Tecnologias
 
-```bash
-npm run dev
+- React 18 + TypeScript + Vite
+- Tailwind CSS + Framer Motion
+- Radix UI + shadcn/ui
+- TanStack Query
+
+## 📱 Estrutura
+
+```
+├── client/               # Frontend React
+├── .github/workflows/    # GitHub Actions
+├── dist/                 # Build produção
+└── public/               # Assets estáticos
 ```
 
-Isso inicia o servidor Express e o servidor de desenvolvimento Vite simultaneamente.
+## 🔧 Desenvolvimento Local
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## 📊 Integrações
+
+- **Facebook Pixel**: Eventos de conversão configurados
+- **Utmify**: Script carregado em todas as páginas
+- **Hotmart**: Links de afiliação configurados
+- **Audio Player**: Reprodução automática e controles customizados
