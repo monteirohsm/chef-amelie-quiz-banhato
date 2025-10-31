@@ -41,16 +41,16 @@ export default function QuizApp() {
 
   return (
     <div className="min-h-screen px-2 sm:px-4 py-4 sm:py-6 md:py-8 flex flex-col">
-      {/* Progress Dots - only show during actual quiz, not on landing or sales page */}
-      {currentStep > 0 && !showResult && !showSalesPage && (
-        <ProgressDots 
-          currentStep={currentStep} 
-          totalSteps={totalSteps - 1} 
-        />
-      )}
-
       {/* Quiz Container */}
       <div className="quiz-container slide-transition flex-1 flex flex-col justify-center">
+        {/* Progress Dots - only show during actual quiz, not on landing or sales page */}
+        {currentStep > 0 && !showResult && !showSalesPage && (
+          <ProgressDots 
+            currentStep={currentStep} 
+            totalSteps={totalSteps - 1} 
+          />
+        )}
+
         {/* Quiz Steps */}
         {quizSteps.map((step, index) => (
           <QuizStep
