@@ -110,10 +110,10 @@ export const quizSteps: QuizStepType[] = [
         content: "Née à Aix-en-Provence, Amélie Dupont a grandi entre les pains chauds, les herbes fraîches et les recettes familiales transmises par sa mère."
       },
       {
-        content: "Formée à l'Institut Saint-Louis à Marseille, elle a travaillé dans des restaurants locaux engagés dans une cuisine naturelle et anti-inflammatoire."
+        content: "Spécialisée en cuisine naturelle et anti-inflammatoire, elle a travaillé dans des restaurants locaux profondément engagés dans cette approche"
       },
       {
-        content: "Mais c'est après avoir elle-même découvert ses intolérances qu'elle décide de créer une nouvelle approche :"
+        content: "Mais c'est en découvrant ses propres intolérances qu'elle décide de tout changer:"
       },
       {
         content: "Des recettes simples, gourmandes, sans sucre, sans gluten, sans lactose — et pleines de plaisir.",
