@@ -5,7 +5,7 @@ interface ProgressDotsProps {
 
 export default function ProgressDots({ currentStep, totalSteps }: ProgressDotsProps) {
   return (
-    <div className="flex flex-col items-center mb-2 sm:mb-3">
+    <div className="flex flex-col items-center mb-5 sm:mb-6">
       {/* Progress Counter Text */}
       <div className="text-xs sm:text-sm text-gray-500 font-medium mb-2">
         Étape {currentStep} sur {totalSteps}
