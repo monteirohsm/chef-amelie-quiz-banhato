@@ -103,24 +103,23 @@ export const quizSteps: QuizStepType[] = [
     name: "chef_profile",
     image: ChefImages.amelie,
     imageAlt: "Chef Amélie Dupont",
-    title: "Une rencontre avec la Cheffe Amélie Dupont",
-    description: "Son histoire, sa mission, ses recettes.",
+    title: "Une rencontre intime avec la Cheffe Amélie Dupont.",
+    description: "La femme derrière les recettes qui ont déjà transformé des milliers de vies.",
     textBlocks: [
       {
-        content: "Née à Aix-en-Provence, Amélie Dupont a grandi entre les pains chauds, les herbes fraîches et les recettes familiales transmises par sa mère."
+        content: "Amélie est née à Aix-en-Provence, où les journées commençaient avec l'odeur du pain fait maison, des herbes fraîches et les histoires culinaires que sa mère lui apprenait dans la cuisine."
       },
       {
-        content: "Spécialisée en cuisine naturelle et anti-inflammatoire, elle a travaillé dans des restaurants locaux profondément engagés dans cette approche"
+        content: "Elle a grandi parmi des saveurs intenses, mais c'est une douleur silencieuse qui a tout changé…"
       },
       {
-        content: "Mais c'est en découvrant ses propres intolérances qu'elle décide de tout changer:"
+        content: "Après des années à souffrir de ballonnements, de fatigue chronique et de troubles digestifs, elle a découvert que ce qui la rendait malade chaque jour… se trouvait dans son propre assiette: le gluten, le lactose et le sucre."
       },
       {
-        content: "Des recettes simples, gourmandes, sans sucre, sans gluten, sans lactose — et pleines de plaisir.",
-        highlight: true
+        content: "C'est à ce moment-là qu'elle a décidé de réinventer sa cuisine… et sa vie."
       },
       {
-        content: "Aujourd'hui, elle partage plus de 500 recettes conçues pour transformer le quotidien de milliers de femmes."
+        content: "Aujourd'hui, diplômée en cuisine naturelle et spécialisée dans l'alimentation anti-inflammatoire, elle réunit plus de 500 recettes fonctionnelles qui nourrissent, apaisent le corps et redonnent le plaisir de manger en toute légèreté. Des recettes pensées pour des femmes réelles, avec des corps réels, qui veulent simplement vivre mieux."
       }
     ],
     buttonText: "Voir comment ses recettes peuvent m'aider"
