@@ -38,20 +38,24 @@ export default function ProfileResult({ onViewSuggestions }: ProfileResultProps)
       transition={{ duration: 0.3 }}
       className="profile-result max-w-md mx-auto my-5 sm:my-8 md:my-12 px-3 sm:px-6"
     >
-      <h2 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2 text-primary">Votre profil gourmand :</h2>
+      <h2 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2 text-primary">Votre profil gourmand</h2>
       <h3 className="text-2xl sm:text-3xl font-normal text-[#333333] mb-6 sm:mb-8 md:mb-10">La Curieuse Épicurienne</h3>
 
       <div className="space-y-5 sm:space-y-8 md:space-y-10 text-[#333333] text-left">
         <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-          Vous êtes du genre à explorer de nouvelles saveurs, à tester des recettes inattendues et à faire plaisir sans culpabilité.
+          Vous ne supportez pas une cuisine sans âme. Vous voulez du goût, de la texture, du plaisir, mais aussi de la légèreté, de la santé et du bien-être.
         </p>
         
         <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-          Votre palais recherche l'équilibre entre le plaisir et le bien-être — sans sacrifier la gourmandise.
+          Vous savez apprécier ce qui est bon…
         </p>
         
         <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-          Ce que la Chef Amélie a préparé pour vous est exactement ça : un univers de recettes qui allient textures, arômes et nutrition intelligente.
+          Mais vous avez compris que le véritable luxe, c'est de manger sans s'enflammer, sans s'épuiser, sans se culpabiliser.
+        </p>
+        
+        <p className="text-sm sm:text-base md:text-lg leading-relaxed">
+          Ce qu'elle a préparé pour vous est clair: Des recettes sans sucre, sans gluten, sans lactose, mais avec la texture d'une pâtisserie, le parfum d'une cuisine de grand-mère et une nutrition pensée dans les moindres détails.
         </p>
       </div>
 
