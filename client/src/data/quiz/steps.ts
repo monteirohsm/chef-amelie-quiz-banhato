@@ -116,7 +116,8 @@ export const quizSteps: QuizStepType[] = [
         content: "Après des années à souffrir de ballonnements, de fatigue chronique et de troubles digestifs, elle a découvert que ce qui la rendait malade chaque jour… se trouvait dans son propre assiette: le gluten, le lactose et le sucre."
       },
       {
-        content: "C'est à ce moment-là qu'elle a décidé de réinventer sa cuisine… et sa vie."
+        content: "C'est à ce moment-là qu'elle a décidé de réinventer sa cuisine… et sa vie.",
+        highlight: true
       },
       {
         content: "Aujourd'hui, diplômée en cuisine naturelle et spécialisée dans l'alimentation anti-inflammatoire, elle réunit plus de 500 recettes fonctionnelles qui nourrissent, apaisent le corps et redonnent le plaisir de manger en toute légèreté. Des recettes pensées pour des femmes réelles, avec des corps réels, qui veulent simplement vivre mieux."
