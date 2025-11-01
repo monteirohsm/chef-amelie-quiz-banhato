@@ -10,21 +10,18 @@ export const quizSteps: QuizStepType[] = [
   // Step 0 - Landing Page
   {
     name: "landing",
-    title: "On vous a menti.",
+    title: "Vous n'avez plus besoin de choisir entre le goût et votre corps.",
     textBlocks: [
       {
-        content: "Vous pouvez manger un <strong>brownie fondant</strong>, une <strong>brioche moelleuse</strong>, ou une <strong>tartelette chocolat-noisette</strong> — <em>sans sucre, sans gluten, sans lactose.</em>"
+        content: "Brownie fondant, brioche moelleuse, tartelette aux noisettes croquantes… tout ça sans sucre, sans gluten, sans lactose et le meilleur… sans culpabilité!"
       },
       {
-        content: "Et vous resservir. Sans culpabilité."
-      },
-      {
-        content: "🎁 En 1 minute, découvrez votre <strong>profil gourmand</strong> et accédez à la <em>collection privée</em> de 500 recettes emblématiques de la Chef Amélie."
+        content: "En 50 secondes, découvrez votre profil gourmet et accédez au carnet secret de la Cheffe Amélie, mais dépêchez-vous avant qu'il ne soit retiré du site."
       }
     ],
     image: "https://cdn.xquiz.co/images/94f2084a-557c-43be-abcc-2ba23141cb46",
     imageAlt: "Desserts sans sucre, sans gluten, sans lactose",
-    buttonText: "Découvrir mon profil gourmand",
+    buttonText: "Découvrir les recettes que les nutritionnistes gardent pour elles",
     footerText: "Plus de <strong>30 000 femmes</strong> ont déjà découvert le leur<br>Ce test ne prend que 60 secondes"
   },
   
