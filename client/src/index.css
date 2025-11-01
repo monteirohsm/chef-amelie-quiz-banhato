@@ -204,7 +204,8 @@
 
   /* Bouncing arrow animation */
   .landing-page .arrow-down {
-    @apply text-3xl text-[#E05B2D] my-4;
+    @apply text-3xl my-4;
+    color: #6BB068;
     animation: bounce 2s ease infinite;
   }
   
