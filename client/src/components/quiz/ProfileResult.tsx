@@ -55,7 +55,7 @@ export default function ProfileResult({ onViewSuggestions }: ProfileResultProps)
         </p>
         
         <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-          Ce qu'elle a préparé pour vous est clair: Des recettes sans sucre, sans gluten, sans lactose, mais avec la texture d'une pâtisserie, le parfum d'une cuisine de grand-mère et une nutrition pensée dans les moindres détails.
+          <strong>Ce qu'elle a préparé pour vous est clair:</strong> Des recettes sans sucre, sans gluten, sans lactose, mais avec <strong>la texture d'une pâtisserie, le parfum d'une cuisine de grand-mère et une nutrition pensée dans les moindres détails.</strong>
         </p>
       </div>
 
