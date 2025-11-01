@@ -32,7 +32,7 @@ export default function QuizStep({
       >
         {/* Title */}
         {step.title && (
-          <h1 className="text-2xl sm:text-3xl md:text-4xl">{step.title}</h1>
+          <h1 className="text-xl sm:text-2xl md:text-3xl">{step.title}</h1>
         )}
 
         {/* Text Blocks */}
@@ -41,7 +41,7 @@ export default function QuizStep({
             {step.textBlocks.map((text, i) => (
               <p 
                 key={i} 
-                className={text.highlight ? "text-primary font-medium text-sm sm:text-base md:text-lg" : "text-sm sm:text-base md:text-lg"}
+                className={text.highlight ? "text-primary font-medium text-xs sm:text-sm md:text-base" : "text-xs sm:text-sm md:text-base"}
                 dangerouslySetInnerHTML={{ __html: text.content }}
               />
             ))}
