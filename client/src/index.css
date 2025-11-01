@@ -109,8 +109,8 @@
 
   .btn-primary {
     @apply text-white font-medium py-3 px-4 rounded-full transition-all duration-200 ease-in-out;
-    background: linear-gradient(90deg, #F17F6C 0%, #E5885F 100%);
-    box-shadow: 0 0 10px rgba(229, 136, 95, 0.3);
+    background: linear-gradient(90deg, #6BB068 0%, #5BA157 100%);
+    box-shadow: 0 0 10px rgba(107, 176, 104, 0.3);
   }
   
   /* Gradient pulsating button animation */
@@ -129,7 +129,7 @@
     right: 0;
     bottom: 0;
     border-radius: 50px;
-    background: linear-gradient(90deg, #F17F6C 0%, #E5885F 100%);
+    background: linear-gradient(90deg, #6BB068 0%, #5BA157 100%);
     z-index: -1;
   }
   
@@ -141,7 +141,7 @@
     top: 0;
     left: 0;
     border-radius: 50px;
-    background: linear-gradient(90deg, #F17F6C 0%, #E5885F 100%);
+    background: linear-gradient(90deg, #6BB068 0%, #5BA157 100%);
     z-index: -2;
     animation: pulse-border 2s cubic-bezier(0.66, 0, 0, 1) infinite;
   }

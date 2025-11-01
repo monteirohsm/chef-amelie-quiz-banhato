@@ -248,7 +248,7 @@ export default function QuizStep({
         <div className="relative w-full mt-2 sm:mt-3">
           <div className="absolute inset-0 rounded-full opacity-30" 
             style={{
-              background: "linear-gradient(90deg, #E78D7B 0%, #E07260 100%)",
+              background: "linear-gradient(90deg, #6BB068 0%, #5BA157 100%)",
               animation: "ping 3s cubic-bezier(0.66, 0, 0, 1) infinite"
             }}
           ></div>
@@ -265,7 +265,7 @@ export default function QuizStep({
         <div className="relative w-full mt-3 sm:mt-4">
           <div className="absolute inset-0 rounded-full opacity-30" 
             style={{
-              background: "linear-gradient(90deg, #E78D7B 0%, #E07260 100%)",
+              background: "linear-gradient(90deg, #6BB068 0%, #5BA157 100%)",
               animation: "ping 3s cubic-bezier(0.66, 0, 0, 1) infinite"
             }}
           ></div>

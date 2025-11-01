@@ -8,7 +8,7 @@ const CoralPulseButton = ({ onClick, children }: { onClick: () => void; children
     <div className="relative inline-block w-full mb-3 sm:mb-4">
       <div className="absolute inset-0 rounded-full opacity-30" 
         style={{
-          background: "linear-gradient(90deg, #E78D7B 0%, #E07260 100%)",
+          background: "linear-gradient(90deg, #6BB068 0%, #5BA157 100%)",
           animation: "ping 3s cubic-bezier(0.66, 0, 0, 1) infinite"
         }}
       ></div>
@@ -16,8 +16,8 @@ const CoralPulseButton = ({ onClick, children }: { onClick: () => void; children
         onClick={onClick}
         className="relative w-full py-3 sm:py-4 px-6 sm:px-8 rounded-full text-base sm:text-lg font-normal text-white"
         style={{ 
-          background: "linear-gradient(90deg, #E78D7B 0%, #E07260 100%)",
-          boxShadow: "0 4px 15px rgba(224, 114, 96, 0.3)"
+          background: "linear-gradient(90deg, #6BB068 0%, #5BA157 100%)",
+          boxShadow: "0 4px 15px rgba(107, 176, 104, 0.3)"
         }}
       >
         {children}
